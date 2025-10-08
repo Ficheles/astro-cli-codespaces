@@ -14,8 +14,8 @@ profile = ProfileConfig(
         profile_args={
             "database": "LAB_PIPELINE",
             "schema": "CORE",
-            "warehouse": "LAB_WH_DBT",
-            "role": "DBT_DEV",
+            "warehouse": "LAB_WH_AIRBYTE",
+            "role": "AIRBYTE_DEV",
         },
     ),
 )
